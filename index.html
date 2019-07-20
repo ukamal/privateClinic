@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Private Clinic</title>
+    <!-------Bootstrap v4.3.1-------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!---------superslides--------->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!---------font-awesom-5.9.0--------->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!---------fancybox--------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!---------owl.carousel--------->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!---------animate--------->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!---------responsive--------->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!---------codeMaker--------->
+    <link rel="stylesheet" href="css/style.css">
+    <!-------favicon-------->
+    <link rel="icon" href="favicon.png">
+    
+
+
+    
+</head>
+<body>
+   
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="logo">
+              <img src="img/logo.png" alt="logo">
+          </span>
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+         <li class="nav-item"><a class="nav-link" href="#specialists">specialists</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact Us</a></li>&nbsp;
+          <!---icons8--->
+          <li class="nav-contact"><img src="https://img.icons8.com/cute-clipart/34/000000/letter.png">&nbsp;flkamal2016@gmail.com</li>
+          <li class="nav-contact"><img src="https://img.icons8.com/bubbles/40/000000/phone-not-being-used.png">&nbsp;01868799280</li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!-----------------------
+End of navbar area
+------------------------->
+
+<div id="slides">
+   <div class="overlay"></div>
+    <ul class="slides-container">
+        <li><img src="img/slides/slide1.jpg" alt="slide1" width="100%"></li>
+        <li><img src="img/slides/slide2.jpg" alt="slide2" width="100%"></li>
+        <li><img src="img/slides/slide3.jpg" alt="slide3" width="100%"></li>
+        <li><img src="img/slides/slide4.jpg" alt="slide4" width="100%"></li>
+    </ul>
+    <div class="sidebar-social">
+        <h5>SHARE</h5>
+        <div id="setting"><i class="fas fa-cogs" aria-hidden="true"></i></div>
+        <ol class="side-bar">
+            <li><a href="#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+        </ol>
+    </div>
+    
+
+</div>
+<!-----------------------
+End of slider area
+------------------------->  
+
+<div class="container contact-form wow animated zoomIn" data-wow-duration="2s">
+    <div class="row">
+       <div class="col-6 col-sm-12"></div>
+        <div class="col-md-6 offset-6">
+            <div class="register">
+              <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-3 col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>You are 30 seconds away from our hospital feedback!</p>
+                        <input type="submit" name="" value="Login"/><br/>
+                    </div>
+                <div class="col-12 col-sm-9 col-md-9 register-right">
+                    <h3 class="register-heading">Schedule Appointment</h3>
+                    <div class="row register-form">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                        <input type="age" class="form-control" placeholder="Your Age *" value="" />
+                        </div>
+                        <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                        <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                            <option class="hidden"  selected disabled>Please select your Doctor</option>
+                            <option>medicine specialist</option>
+                            <option>ENT specialist</option>
+                            <option>mother & child specialist</option>
+                            <option>Orthopedics  specialist</option>
+                            <option>Gynecologist Obstetrics Specialist </option>
+                            <option>Skin & Sex Specialist </option>
+                            <option>Surgery Specialist </option>
+                            <option>Dental Specialist </option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div class="maxl">
+                            <label class="radio inline"> 
+                            <input type="radio" name="gender" value="male" checked>
+                            <span> Male </span> 
+                            </label>
+                            <label class="radio inline"> 
+                            <input type="radio" name="gender" value="female">
+                            <span>Female </span> 
+                            </label>
+                            </div>
+                        </div>
+                        <input type="submit" class="btnRegister"  value="Register"/>
+                        </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------
+End of contact-form area
+------------------------->
+<section id="specialists" class="doctor-area padding">
+    <div class="container">
+        <div class="row text-center">
+           <div class="col-sm-12">
+               <h3 class="heading wow animated rollIn" data-wow-duration="2s">choose your doctor.</h3>
+               <div class="title-img">
+                   <img src="img/title.png" alt="title">
+               </div>
+           </div>
+        </div>
+           <div class="row text-center">
+               <div class="col-sm-6 col-md-3">
+                   <div class="singleDoctor wow animated zoomIn" data-wow-dealy="2s">
+                    <div class="card">
+						
+                    <img src="img/specialists/dentel.jpg" alt="dental">
+					 
+					 <div class="img-icons">
+					 <a href="img/dental.jpg" class="openButton" data-fancybox>
+					 <i class="fa fa-search"></i> 
+					 
+					 </a>
+					 
+					 <a href="" class="projectLink">
+					 <i class="fa fa-link"></i>  
+					 
+					 </a>
+					 
+					 </div>
+					 
+                      <div class="card-body">
+                        <h5 class="card-title">Dr.JonDow</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Dental Specialist</h6>
+                        <p class="card-text">Medicine is the science and practice of establishing the diagnosis,prognosis,treatment,and prevention of disease.</p>
+                        <a href="#" class="card-link">Read More ></a>
+                        <a href="#" class="card-link">Appointment</a>
+                      </div>
+                    </div>
+                   </div>
+               </div>
+               <div class="col-sm-6 col-md-3">
+                   <div class="singleDoctor wow animated zoomIn" data-wow-dealy="2s">
+                    <div class="card">
+                     <img src="img/specialists/ent.jpg" alt="dental">
+					 
+					 <div class="img-icons">
+					 <a href="img/dental.jpg" class="openButton" data-fancybox>
+					 <i class="fa fa-search"></i> 
+					 
+					 </a>
+					 
+					 <a href="" class="projectLink">
+					 <i class="fa fa-link"></i>  
+					 
+					 </a>
+					 
+					 </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr.Laravel</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Skin & Sex Specialist</h6>
+                        <p class="card-text">Medicine is the science and practice of establishing the diagnosis,prognosis,treatment,and prevention of disease.</p>
+                        <a href="#" class="card-link">Read More ></a>
+                        <a href="#" class="card-link">Appointment</a>
+                      </div>
+                    </div>
+                   </div>
+               </div>
+               <div class="col-sm-6 col-md-3">
+                   <div class="singleDoctor wow animated zoomIn" data-wow-dealy="2s">
+                    <div class="card">
+                     <img src="img/specialists/medicine.jpg" alt="dental">
+					 
+					 <div class="img-icons">
+					 <a href="img/dental.jpg" class="openButton" data-fancybox>
+					 <i class="fa fa-search"></i> 
+					 
+					 </a>
+					 
+					 <a href="" class="projectLink">
+					 <i class="fa fa-link"></i>  
+					 
+					 </a>
+					 
+					 </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr.Alok Bajpai</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Medicine Specialist</h6>
+                        <p class="card-text">Medicine is the science and practice of establishing the diagnosis,prognosis,treatment,and prevention of disease.</p>
+                        <a href="#" class="card-link">Read More ></a>
+                        <a href="#" class="card-link">Appointment</a>
+                      </div>
+                    </div>
+                   </div>
+               </div>
+               <div class="col-sm-6 col-md-3">
+                   <div class="singleDoctor wow animated zoomIn" data-wow-dealy="2s">
+                    <div class="card">
+                     <img src="img/specialists/mc.jpg" alt="dental">
+					 
+					 <div class="img-icons">
+					 <a href="img/dental.jpg" class="openButton" data-fancybox>
+					 <i class="fa fa-search"></i> 
+					 
+					 </a>
+					 
+					 <a href="" class="projectLink">
+					 <i class="fa fa-link"></i>  
+					 
+					 </a>
+					 
+					 </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Prof. Dr. Farhana</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">MBBS, FCPS,Consultant</h6>
+                        <p class="card-text">Medicine is the science and practice of establishing the diagnosis,prognosis,treatment,and prevention of disease.</p>
+                        <a href="#" class="card-link">Read More ></a>
+                        <a href="#" class="card-link">Appointment</a>
+                      </div>
+                    </div>
+                   </div>
+               </div>
+           </div><!---TopDoctor--->
+            
+    </div>
+</section>
+<!----------------------
+end of specialists area
+------------------------>
+
+<section id="Services" class="services  padding bg-color">
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12">
+               <h3 class="heading">Medical Services</h3>
+               <div class="title-img text-center">
+                   <img src="img/title.png" alt="title">
+               </div>
+           </div>
+            <div class="col- col-sm-12 col-md-6">
+                <div class="service-left">
+                    <img src="img/service/process.png" alt="process" width="100%">
+                </div>
+            </div>
+            <!------accordion--------->
+            <div class="col- col-sm-12 col-md-6">
+                <div class="service-right">
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <span class="accourdionTitle"> <i class="fas fa-procedures"></i></span>
+                              Will selected doctor solve my medical issue ?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <i class="fas fa-microscope"></i>
+                               Will my selected doctor solve my medical issue ?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                             <i class="fas fa-user-md"></i>
+                              Will my selected doctor solve my medical issue ?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------skills-------------->
+   <section id="skills" class="skills-area">
+       <div class="container">
+           <div class="row text-center">
+               <div class="col-sm-12 col-md-12">
+               <h3 class="heading">Our expert doctor</h3>
+               <p>More services (Drag to Scroll)</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="skills">
+                        <span class="chart" data-percent="95">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Medicine</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="skills">
+                        <span class="chart" data-percent="90">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>ENT</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="skills">
+                        <span class="chart" data-percent="80">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Surgery</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="skills">
+                        <span class="chart" data-percent="73">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Gynocologist</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="skills">
+                        <span class="chart" data-percent="73">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Skin & Sex</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+               </div>
+           </div>
+        </div>
+    </section>
+</section>
+<!----------------------
+end of Services area
+------------------------>
+  
+<section id="pricingArea">
+       <div class="demo bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable wow animated fadeInLeft" data-duration-dealy="2s">
+                    <div class="pricingTable-header">
+                        <h3 class="title">Gynaecology</h3>
+                    </div>
+                    <div class="price-value">
+                        <span class="amount">$10</span>
+                        <span class="month">monthly</span>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Lorem ipsum dolor sit amet!</li>
+                        <li>Lorem ipsum dolor sit!</li>
+                        <li>Lorem ipsum dolor!</li>
+                        <li>Lorem ipsum!</li>
+                        <li>Lorem ipsum!</li>
+                    </ul>
+                    <a href="#" class="pricingTable-signup arrow">Sign Up
+                    <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTable green wow animated zoomIn" data-duration-dealy="2s">
+                    <div class="pricingTable-header">
+                        <h3 class="title">Nephrology</h3>
+                    </div>
+                    <div class="price-value">
+                        <span class="amount">$20</span>
+                        <span class="month">monthly</span>
+                    </div>
+                    <ul class="pricing-content">
+                        <li>Lorem ipsum dolor sit amet!</li>
+                        <li>Lorem ipsum dolor sit!</li>
+                        <li>Lorem ipsum dolor!</li>
+                        <li>Lorem ipsum!</li>
+                        <li>Lorem ipsum!</li>
+                    </ul>
+                    <a href="#" class="pricingTable-signup arrow">Sign Up
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTablePre blue wow animated zoomIn" data-duration-dealy="2s">
+                    <div class="pricingTablePre-header">
+                        <h3 class="title">Neurology</h3>
+                    </div>
+                    <div class="pricePre-value">
+                        <span class="amount">$40</span>
+                        <span class="month">monthly</span>
+                    </div>
+                    <ul class="pricingPre-content">
+                        <li>Lorem ipsum dolor sit amet!</li>
+                        <li>Lorem ipsum dolor sit!</li>
+                        <li>Lorem ipsum dolor!</li>
+                        <li>Lorem ipsum!</li>
+                        <li>Lorem ipsum!</li>
+                    </ul>
+                    <a href="#" class="pricingTablePre-signup arrow">Sign Up
+                    <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div><!---pre---->
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingTableExtra green wow animated fadeInRight" data-duration-dealy="2s">
+                    <div class="pricingTableExtra-header">
+                        <h3 class="title">Cardiology</h3>
+                    </div>
+                    <div class="priceExtra-value">
+                        <span class="amount">$60</span>
+                        <span class="month">monthly</span>
+                    </div>
+                    <ul class="pricingExtra-content">
+                        <li>Lorem ipsum dolor sit amet!</li>
+                        <li>Lorem ipsum dolor sit!</li>
+                        <li>Lorem ipsum dolor!</li>
+                        <li>Lorem ipsum!</li>
+                        <li>Lorem ipsum!</li>
+                    </ul>
+                    <a href="#" class="pricingTableExtra-signup arrow">Sign Up
+                    <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div><!-----extra------>
+        </div>
+    </div>
+</div>
+   </section>
+<!----------------------
+end of pricingArea 
+------------------------>
+   
+<section id="ctaArea">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="img/tab.jpg">
+               <img src="img/a.png" alt="ambulance" width="50%" height="400px">
+            </div>
+        </div>
+    </div>
+</section>
+<!-----------
+end of ctaArea 
+------------->
+ 
+<section id="footerArea">
+      <div class="container">
+          <div class="row footerPadding">
+              <div class="col-sm-2 col-md-3">
+                  <div class="footerTitle">
+                      <h3>Pharmaceuticals</h3>
+                      <ul>
+                          <li><a href="">Amoxycillin</a></li>
+                          <li><a href="">Ciprofloxacin</a></li>
+                          <li><a href="">Cephradine</a></li>
+                          <li><a href="">Cefixime</a></li>
+                          <li><a href="">Azithromycin</a></li>
+                          <li><a href="">Clindamycin</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-2 col-md-3">
+                  <div class="footerTitle">
+                      <h3>Unani</h3>
+                      <ul>
+                          <li><a href="">Napa</a></li>
+                          <li><a href="">Ace</a></li>
+                          <li><a href="">Exel</a></li>
+                          <li><a href="">Renova</a></li>
+                          <li><a href="">Reset</a></li>
+                          <li><a href="">Pol</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-2 col-md-3">
+                  <div class="footerTitle">
+                      <h3>ayurvedic</h3>
+                      <ul>
+                          <li><a href="">Napa</a></li>
+                          <li><a href="">Ace</a></li>
+                          <li><a href="">Exel</a></li>
+                          <li><a href="">Renova</a></li>
+                          <li><a href="">Reset</a></li>
+                          <li><a href="">Pol</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-sm-2 col-md-3">
+                  <div class="footerTitle">
+                      <h3>our services</h3>
+                      <ul>
+                          <li><a href="">Autoimmune Diseases.</a></li>
+                          <li><a href="">Allergies & Asthma.</a></li>
+                          <li><a href="">Cancer</a></li>
+                          <li><a href="">Celiac Disease.</a></li>
+                          <li><a href="">Crohn's & Colitis.</a></li>
+                          <li><a href="">Heart Disease.</a></li>
+                          <li><a href="">Infectious Diseases.</a></li>
+                          <li><a href="">Liver Disease</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12 col-md-12">
+                  <div class="copyRight text-center">
+                      <p>Copyright © 2019 by blueSky</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+<!---------------
+end of footerArea 
+---------------->
+
+    
+        <!-------------scrollToTop-------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow28.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+    <!---------wow--------->
+    <script src="js/wow.min.js"></script>
+    <!----------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!----------jquery-3.4.1.min.js------------>
+    <script src="js/jquery-min.js"></script>
+    <!----------Bootstrap v4.3.1----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!---------all.min-fontawesome--------->
+    <script src="js/all.min.js"></script>
+    <!---------superslides--------->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!---------parallax--------->
+    <script src="js/parallax.min.js"></script>
+    <!---------owl.carousel--------->
+    <script src="js/owl.carousel.min.js"></script>
+    <!---------easypiechart--------->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!---------fancybox--------->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!---------codeMaker--------->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

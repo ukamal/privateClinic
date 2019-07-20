@@ -1,0 +1,4 @@
+This website created for Private Clinic and Hospital. It's uses different 2page and 1 main home page Total page 3. Home,specialist,service same page all effect added 8 section with registry form.
+Abou page are created based VueJs only mian content section without header and footer  with youtuve video.Contact page are create different navbar,google map and contac form.
+But, main page have 7 section and based css grid system bootstrap4.3 version framework with SuperSlider,OwlCarousel,parallax,scrollTop,Fancybox,easypiechart,Icons8,Fontawesome5,wowJs,favicon & rgba color
+also added pixaby,pexels & some google images. About page have 4 section. Contact page have  4 section.
